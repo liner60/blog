@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, table, th, td, embed, object,figure{padding: 0; margin: 0;}
+img{border:0;}
+a{text-decoration:none;color:#999;}
+ul,ol{list-style:none;}
+.clearfix:after{content:"";display:block;width:0;clear:both;}
+.clearfix{zoom:1;}
+.left{float:left;}
+.right{float:right;}
+html{font-size:20px;}
+body{width:100%;}
+.wrapper{width:55%;margin:0 auto;}
+/*head*/
+.header{width:100%;padding:1rem 0;}
+.logo{width:9.25rem;}
+.nav{background:#48ae15;padding:0 2.5rem;border-radius:1.2rem;margin-top:0.3rem;}
+.nav li{height:2.4rem;line-height:2.4rem;float:left;}
+.nav a{color:#fff;padding:0 1.2rem;height:100%;display:block;font-size:1rem;}
+.nav .active{background:#f3ff41;color:#000;}
+.nav .active a{color:#000;}
+/*main leftCont*/
+.main{width:100%;}
+.leftCont{width:67%;margin-right:3.5%;}
+.bannerBox{width:100%;}
+.bannerList{width:100%;}
+.bannerList li{float:left;width:100%;}
+.ban_img{width:100%;}
+.recommend{width:100%;margin-top:0.8rem;color:#666;}
+.rec_titBox{width:100%;height:2rem;line-height:2rem;border-bottom:5px solid #db6d4c;}
+.rec_tit{font-size:1rem;color:#333;}
+.rec_class li{float:left;font-size:0.6rem;padding:0 0.35rem;}
+.rec_class a{color:#333;}
+.rec_main{width:100%;}
+.rec_article{padding:1.5rem 0 2.2rem;border-bottom:1px solid #ccc;font-size:0.7rem;}
+.rec_imgBox{padding-right:1rem;height:100%;padding-bottom:2rem;}
+.art_tit{font-size:0.9rem;padding-bottom:0.6rem;color:#333;}
+.art_para{line-height:1.2rem;margin-bottom:0.8rem;}
+.rec_com em{color:#759b08;font-style:normal;}
+.icon{vertical-align:middle;}
+/*rightCont*/
+.rightCont{width:29.5%;color:#666;}
+.side_tit{height:2rem;line-height:2rem;border-bottom:1px solid #ccc;font-size:1rem;margin-bottom:1.3rem;}
+.follow{margin-bottom:1.5rem;}
+.fo_main{width:100%;}
+.follow_list{width:100%;margin:0 0 1.2rem;}
+.fo_icon{width:70%;padding:0.5rem 15%;}
+.follow_list li{float:left;width:25%;font-size:0.6rem;text-align:center;}
+.ad{width:100%;}
+.hot_titBox{border-bottom:1px solid #ccc;width:100%;}
+.hot_titBox .active{color:#fff;background:#f77825;}
+.hot_tit{font-size:0.7rem;width:30%;text-align:center;height:1.7rem;line-height:1.7rem}
+.hot_list{font-size:0.7rem;width:100%;margin-top:1.3rem;}
+.hot_list li{overflow:hidden;width:100%;height:1.4rem;line-height:1.4rem;border-bottom:1px solid #ccc;margin-bottom:0.7rem;}
+.hot_list span{color:#fff;margin-lrt:0.2rem;width:1.2rem;display:inline-block;text-align:center;height:0.9rem;line-height:0.9rem;border-radius:0.2rem;}
+.red{background:#F30;}
+.pink{background:#F60;}
+.orange{background:#F90;}
+.gray{background:#666;}
+.blue{background:#3299bb;}
+.green{background:#0F6;}
+.yellow{background:#9F3;}
+.yblue{background:#8a9b0f}
+.yunTag_list{width:100%;margin-bottom:1rem;}
+.yunTag_list li{float:left;height:1.4rem;line-height:1.4rem;padding:0 0.5rem;border-radius:0.3rem;margin:2%;}
+.yunTag_list a{color:#fff;font-size:0.7rem;display:block;height:1.4rem;line-height:1.4rem;}
+.pw_main .pw_arcImg{width:3.5rem;}
+.pw_main .art_tit{font-size:0.7rem;color:#666;}
+.pw_main .rec_imgBox{padding-right:0.5rem;}
+.pw_com{font-size:0.6rem;color:#999;}
+.com_tag{margin-right:0.5rem;}
+.pw_main .rec_article{padding:0 0 0.5rem;border:0;}
+.adBox{margin:1.5rem 0;width:100%;}
+.forLink_list{border:1px solid #ccc;background:#f8f8f8;font-size:0.6rem;padding:0.5rem;}
+.forLink_list li{float:left;padding:0 0.3rem;height:1.5rem;line-height:1.5rem;}
+@media (min-width:1150px) and (max-width:1600px){
+	.wrapper{width:75%;}
+	html{font-size:19px;}
+}
+@media (min-width:950px) and (max-width:1150px){
+	.wrapper{width:90%;}
+	html{font-size:18px;}
+}
+@media (min-width:700px) and (max-width:950px){
+	.wrapper{width:95%;}
+	html{font-size:17px;}
+	.nav a{padding:0 0.9rem;}
+	.nav{padding:0 1.1rem;}
+	.rec_imgBox{padding-bottom:0;}
+}
+@media screen and (max-width:700px){
+	.wrapper{width:95%;}
+	html{font-size:16px;}
+	.rightCont,.leftCont,.nav{width:100%;}
+	.rightCont{margin:2rem 0;}
+	.logo{width:14rem;}
+	.nav{padding:0;border-radius:0;text-align:center;}
+	.nav li{width:100%;border-bottom:1px solid #fff;}
+	.rec_main .rec_imgBox{width:100%;padding:0 0 1rem;}
+	.rec_imgBox img{width:100%;}
+	.rec_main .com_tag{margin:0;}
+	.rec_article{padding-bottom:1.5rem;}
+}
+
+
